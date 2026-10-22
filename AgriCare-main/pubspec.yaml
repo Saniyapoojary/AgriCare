@@ -1,0 +1,26 @@
+name: agricare
+description: "AgriCare - AI-Powered Arecanut Crop Disease Diagnostic and Spray Worker Marketplace"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  tflite_flutter: ^0.12.1
+  provider: ^6.1.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/arecanut_model.tflite
+    - assets/models/plant_labels.txt

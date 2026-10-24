@@ -1,4 +1,4 @@
-# 🌱 AgriCare – AI-Based Arecanut Disease Diagnosis & Workforce Management
+#  AgriCare – AI-Based Arecanut Disease Diagnosis & Workforce Management
 
 AgriCare is an AI-powered agricultural mobile application designed to help arecanut farmers identify crop diseases, understand disease severity, access treatment guidance, and connect with agricultural workers. The application combines machine learning with digital workforce management to support smarter farming decisions.
 
@@ -9,33 +9,33 @@ AgriCare is an AI-powered agricultural mobile application designed to help areca
 - Simplify agricultural workforce discovery and job management.
 - Provide a user-friendly mobile platform for farmers and agricultural workers.
 
-## ✨ Key Features
+## Key Features
 
-### 🌿 AI-Based Disease Detection
+### AI-Based Disease Detection
 - Analyze arecanut crop images using a TensorFlow Lite machine learning model.
 - Support disease identification for Healthy crops, Koleroga, Bud Rot, Yellow Leaf Disease, Fruit Rot, and Anthracnose.
 - Classify disease severity into Mild, Moderate, and Severe categories where supported by the implemented workflow.
 - Provide disease-related guidance to help farmers make informed decisions.
 
-### 👨‍🌾 Farmer Dashboard
+###  Farmer Dashboard
 - Access crop scanning and disease reports.
 - View relevant farming information.
 - Create agricultural job requests.
 - Track job details and request status.
 
-### 👷 Agricultural Workforce Management
+### Agricultural Workforce Management
 - Browse available agricultural jobs.
 - View and manage assigned jobs.
 - Support worker matching and reliability scoring through application logic.
 - Manage worker profiles and job-related information.
 
-### 📱 Mobile Application
+### Mobile Application
 - Built with Flutter for a cross-platform application experience.
 - Organized screens for farmers and agricultural workers.
 - Reusable widgets and structured application components.
 - Local machine learning model integration for crop disease analysis.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -45,7 +45,7 @@ AgriCare is an AI-powered agricultural mobile application designed to help areca
 | Machine Learning | Crop disease identification |
 | Git & GitHub | Version control and source management |
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```text
 AgriCare/
@@ -72,7 +72,7 @@ AgriCare/
 └── README.md
 ```
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -121,7 +121,7 @@ Connect an Android device or start an emulator, then execute:
 flutter run
 ```
 
-## 🧪 Testing
+##  Testing
 
 Run the available Flutter tests using:
 
@@ -131,13 +131,13 @@ flutter test
 
 The repository includes widget and login-related test files. Actual test results depend on the project configuration and environment.
 
-## 🔬 Machine Learning Model
+##  Machine Learning Model
 
 The application includes a TensorFlow Lite model at `assets/models/arecanut_model.tflite`, along with a label file used by the application.
 
 The model is intended to support arecanut disease identification. Its accuracy and reliability should be evaluated using a representative, independently labelled dataset before using predictions for agricultural decisions.
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Integrate a fully connected backend and persistent database.
 - Expand disease-detection accuracy through additional field-image validation.
@@ -146,7 +146,7 @@ The model is intended to support arecanut disease identification. Its accuracy a
 - Enhance worker matching using location, availability, and reliability information.
 - Provide notifications and detailed analytics for farmers and workers.
 
-## 🤝 Contributions
+##  Contributions
 
 AgriCare is a collaborative agricultural technology project. Contributions, suggestions, and improvements are welcome, subject to the project's ownership and licensing terms.
 
@@ -156,7 +156,7 @@ If you are contributing to the project, document your changes clearly and acknow
 
 Disease predictions are intended as decision-support information and should not replace professional agricultural diagnosis. Treatment decisions should be made using verified agricultural recommendations.
 
-## 📄 License
+## 📄License
 
 Check the project's existing license and model attribution requirements before redistributing the source code or machine learning model. Add a license file only when the project owners have agreed on the applicable terms.
 
